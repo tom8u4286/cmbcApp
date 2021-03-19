@@ -33,7 +33,7 @@ struct ContentView: View {
                     NavigationLink( destination: newsView(),tag:"news", selection:$selection){EmptyView()}
                     NavigationLink( destination: prayerView(), tag:"prayer", selection:$selection){EmptyView()}
                     NavigationLink( destination: Text("服事"), tag:"service", selection:$selection){EmptyView()}
-                    NavigationLink( destination: Text("防疫"), tag:"covid", selection:$selection){EmptyView()}
+                    NavigationLink( destination: CovidView(), tag:"covid", selection:$selection){EmptyView()}
                     
                     //MARK: -信息
                     Button(action:{

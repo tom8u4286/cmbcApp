@@ -15,6 +15,7 @@
 		DD22FDFB26037E0C009B012C /* prayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22FDFA26037E0C009B012C /* prayerView.swift */; };
 		DD22FDFE26038DCA009B012C /* sermonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22FDFD26038DCA009B012C /* sermonView.swift */; };
 		DDAB401326047836000F153A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB401226047836000F153A /* WebView.swift */; };
+		DDAB401626049482000F153A /* CovidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB401526049482000F153A /* CovidView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DD22FDFA26037E0C009B012C /* prayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prayerView.swift; sourceTree = "<group>"; };
 		DD22FDFD26038DCA009B012C /* sermonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sermonView.swift; sourceTree = "<group>"; };
 		DDAB401226047836000F153A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		DDAB401526049482000F153A /* CovidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +64,10 @@
 			children = (
 				DD22FDE6260191C0009B012C /* NavigationViewPracticeApp.swift */,
 				DD22FDE8260191C0009B012C /* ContentView.swift */,
-				DD22FDF626033ADC009B012C /* newsView.swift */,
 				DD22FDFD26038DCA009B012C /* sermonView.swift */,
+				DD22FDF626033ADC009B012C /* newsView.swift */,
 				DD22FDFA26037E0C009B012C /* prayerView.swift */,
+				DDAB401526049482000F153A /* CovidView.swift */,
 				DD22FDEA260191C3009B012C /* Assets.xcassets */,
 				DD22FDEF260191C3009B012C /* Info.plist */,
 				DD22FDEC260191C3009B012C /* Preview Content */,
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDAB401626049482000F153A /* CovidView.swift in Sources */,
 				DD22FDE9260191C0009B012C /* ContentView.swift in Sources */,
 				DD22FDFB26037E0C009B012C /* prayerView.swift in Sources */,
 				DD22FDE7260191C0009B012C /* NavigationViewPracticeApp.swift in Sources */,
