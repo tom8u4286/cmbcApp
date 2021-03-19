@@ -12,6 +12,7 @@ struct NavigationViewPracticeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            //newsView()
         }
     }
 }
