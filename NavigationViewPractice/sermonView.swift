@@ -59,10 +59,11 @@ struct oneSermon: View{
     var url: String
     
     var body: some View{
-        GeometryReader{geo in
+        ScrollView{
             VStack( spacing: 10){
                 SwiftUIWebView(url: URL(string: url))
-                    .frame(width: geo.size.width, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    //.frame(width: geo.size.width, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 
                 
                 VStack(alignment: .leading, spacing:5){
@@ -73,15 +74,18 @@ struct oneSermon: View{
                     Text("\(date)")
                         .font(.title3)
                         .foregroundColor(.gray)
-                }.padding(.horizontal)
-                .frame(width: geo.size.width, alignment: .leading)
+                    
+                    Divider()
+                    
+                    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
+                }.frame(alignment: .leading)
+                .padding(.horizontal)
                 
-                Divider()
+                //.frame(width: geo.size.width, alignment: .leading)
                 
-                Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
-                    .padding(.horizontal)
+                
             }
-        }
+        }.navigationBarTitle("", displayMode: .inline)
     }
 }
 

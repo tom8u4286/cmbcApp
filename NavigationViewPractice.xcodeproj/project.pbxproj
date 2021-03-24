@@ -7,27 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD22FDE7260191C0009B012C /* NavigationViewPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22FDE6260191C0009B012C /* NavigationViewPracticeApp.swift */; };
-		DD22FDE9260191C0009B012C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22FDE8260191C0009B012C /* ContentView.swift */; };
+		DD12A37C2609D12B00D1BBA7 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12A3782609D12B00D1BBA7 /* GoogleMapsCore.framework */; };
+		DD12A37D2609D12B00D1BBA7 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12A3792609D12B00D1BBA7 /* GoogleMapsBase.framework */; };
+		DD12A37E2609D12B00D1BBA7 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12A37A2609D12B00D1BBA7 /* GoogleMaps.framework */; };
+		DD12A37F2609D12B00D1BBA7 /* GoogleMapsM4B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12A37B2609D12B00D1BBA7 /* GoogleMapsM4B.framework */; };
+		DD12A3822609D15F00D1BBA7 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD12A3812609D15F00D1BBA7 /* GoogleMaps.bundle */; };
+		DD12A3852609D44900D1BBA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD12A3842609D44900D1BBA7 /* ViewController.swift */; };
+		DD12A3A6260A026700D1BBA7 /* TestGoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD12A3A5260A026700D1BBA7 /* TestGoogleMapView.swift */; };
+		DD12A3A9260A23EC00D1BBA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD12A3A8260A23EC00D1BBA7 /* AppDelegate.swift */; };
+		DD210CEC2608832F00008B7F /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD210CEB2608832F00008B7F /* AboutView.swift */; };
+		DD210CEF260886ED00008B7F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD210CEE260886ED00008B7F /* MapView.swift */; };
+		DD210CF226097E3600008B7F /* LettersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD210CF126097E3600008B7F /* LettersView.swift */; };
+		DD210CFA2609CD7C00008B7F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210CF92609CD7C00008B7F /* Accelerate.framework */; };
+		DD210CFC2609CD8300008B7F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210CFB2609CD8300008B7F /* CoreData.framework */; };
+		DD210CFE2609CD8900008B7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210CFD2609CD8900008B7F /* CoreGraphics.framework */; };
+		DD210D002609CD8F00008B7F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210CFF2609CD8F00008B7F /* CoreImage.framework */; };
+		DD210D022609CD9600008B7F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D012609CD9600008B7F /* CoreLocation.framework */; };
+		DD210D042609CDA200008B7F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D032609CDA200008B7F /* CoreTelephony.framework */; };
+		DD210D062609CDA900008B7F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D052609CDA900008B7F /* CoreText.framework */; };
+		DD210D082609CDB100008B7F /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D072609CDB100008B7F /* GLKit.framework */; };
+		DD210D0A2609CDC800008B7F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D092609CDC800008B7F /* ImageIO.framework */; };
+		DD210D0C2609CDD800008B7F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D0B2609CDD800008B7F /* libc++.tbd */; };
+		DD210D0F2609CDE200008B7F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D0E2609CDE200008B7F /* libz.tbd */; };
+		DD210D122609CDEA00008B7F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D112609CDEA00008B7F /* OpenGLES.framework */; };
+		DD210D142609CDF200008B7F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D132609CDF200008B7F /* QuartzCore.framework */; };
+		DD210D162609CDF900008B7F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D152609CDF900008B7F /* SystemConfiguration.framework */; };
+		DD210D182609CDFF00008B7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D172609CDFF00008B7F /* UIKit.framework */; };
+		DD22FDE7260191C0009B012C /* NavigationViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22FDE6260191C0009B012C /* NavigationViewPractice.swift */; };
+		DD22FDE9260191C0009B012C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22FDE8260191C0009B012C /* HomeView.swift */; };
 		DD22FDEB260191C3009B012C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD22FDEA260191C3009B012C /* Assets.xcassets */; };
 		DD22FDEE260191C3009B012C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD22FDED260191C3009B012C /* Preview Assets.xcassets */; };
 		DD22FDF726033ADD009B012C /* newsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22FDF626033ADC009B012C /* newsView.swift */; };
 		DD22FDFB26037E0C009B012C /* prayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22FDFA26037E0C009B012C /* prayerView.swift */; };
 		DD22FDFE26038DCA009B012C /* sermonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22FDFD26038DCA009B012C /* sermonView.swift */; };
+		DD43EC5226086F01008930DC /* BaseTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD43EC5126086F01008930DC /* BaseTabView.swift */; };
 		DDAB401326047836000F153A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB401226047836000F153A /* WebView.swift */; };
 		DDAB401626049482000F153A /* CovidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB401526049482000F153A /* CovidView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD12A3782609D12B00D1BBA7 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		DD12A3792609D12B00D1BBA7 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		DD12A37A2609D12B00D1BBA7 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		DD12A37B2609D12B00D1BBA7 /* GoogleMapsM4B.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsM4B.framework; sourceTree = "<group>"; };
+		DD12A3812609D15F00D1BBA7 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = SOURCE_ROOT; };
+		DD12A3842609D44900D1BBA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD12A3A5260A026700D1BBA7 /* TestGoogleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGoogleMapView.swift; sourceTree = "<group>"; };
+		DD12A3A8260A23EC00D1BBA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD210CEB2608832F00008B7F /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		DD210CEE260886ED00008B7F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DD210CF126097E3600008B7F /* LettersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersView.swift; sourceTree = "<group>"; };
+		DD210CF92609CD7C00008B7F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		DD210CFB2609CD8300008B7F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DD210CFD2609CD8900008B7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD210CFF2609CD8F00008B7F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		DD210D012609CD9600008B7F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DD210D032609CDA200008B7F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DD210D052609CDA900008B7F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		DD210D072609CDB100008B7F /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		DD210D092609CDC800008B7F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		DD210D0B2609CDD800008B7F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		DD210D0E2609CDE200008B7F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DD210D112609CDEA00008B7F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DD210D132609CDF200008B7F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DD210D152609CDF900008B7F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DD210D172609CDFF00008B7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DD22FDE3260191C0009B012C /* NavigationViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD22FDE6260191C0009B012C /* NavigationViewPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewPracticeApp.swift; sourceTree = "<group>"; };
-		DD22FDE8260191C0009B012C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD22FDE6260191C0009B012C /* NavigationViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewPractice.swift; sourceTree = "<group>"; };
+		DD22FDE8260191C0009B012C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DD22FDEA260191C3009B012C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD22FDED260191C3009B012C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD22FDEF260191C3009B012C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD22FDF626033ADC009B012C /* newsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsView.swift; sourceTree = "<group>"; };
 		DD22FDFA26037E0C009B012C /* prayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prayerView.swift; sourceTree = "<group>"; };
 		DD22FDFD26038DCA009B012C /* sermonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sermonView.swift; sourceTree = "<group>"; };
+		DD43EC5126086F01008930DC /* BaseTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabView.swift; sourceTree = "<group>"; };
 		DDAB401226047836000F153A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		DDAB401526049482000F153A /* CovidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -37,17 +91,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD12A37F2609D12B00D1BBA7 /* GoogleMapsM4B.framework in Frameworks */,
+				DD210D182609CDFF00008B7F /* UIKit.framework in Frameworks */,
+				DD210D162609CDF900008B7F /* SystemConfiguration.framework in Frameworks */,
+				DD210D142609CDF200008B7F /* QuartzCore.framework in Frameworks */,
+				DD210D122609CDEA00008B7F /* OpenGLES.framework in Frameworks */,
+				DD210D0F2609CDE200008B7F /* libz.tbd in Frameworks */,
+				DD210D0C2609CDD800008B7F /* libc++.tbd in Frameworks */,
+				DD12A37E2609D12B00D1BBA7 /* GoogleMaps.framework in Frameworks */,
+				DD12A37D2609D12B00D1BBA7 /* GoogleMapsBase.framework in Frameworks */,
+				DD210D0A2609CDC800008B7F /* ImageIO.framework in Frameworks */,
+				DD210D082609CDB100008B7F /* GLKit.framework in Frameworks */,
+				DD210D062609CDA900008B7F /* CoreText.framework in Frameworks */,
+				DD210D042609CDA200008B7F /* CoreTelephony.framework in Frameworks */,
+				DD210D022609CD9600008B7F /* CoreLocation.framework in Frameworks */,
+				DD12A37C2609D12B00D1BBA7 /* GoogleMapsCore.framework in Frameworks */,
+				DD210D002609CD8F00008B7F /* CoreImage.framework in Frameworks */,
+				DD210CFE2609CD8900008B7F /* CoreGraphics.framework in Frameworks */,
+				DD210CFC2609CD8300008B7F /* CoreData.framework in Frameworks */,
+				DD210CFA2609CD7C00008B7F /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD210CF82609CD7C00008B7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD12A37A2609D12B00D1BBA7 /* GoogleMaps.framework */,
+				DD12A3792609D12B00D1BBA7 /* GoogleMapsBase.framework */,
+				DD12A3782609D12B00D1BBA7 /* GoogleMapsCore.framework */,
+				DD12A37B2609D12B00D1BBA7 /* GoogleMapsM4B.framework */,
+				DD210D172609CDFF00008B7F /* UIKit.framework */,
+				DD210D152609CDF900008B7F /* SystemConfiguration.framework */,
+				DD210D132609CDF200008B7F /* QuartzCore.framework */,
+				DD210D112609CDEA00008B7F /* OpenGLES.framework */,
+				DD210D0E2609CDE200008B7F /* libz.tbd */,
+				DD210D0B2609CDD800008B7F /* libc++.tbd */,
+				DD210D092609CDC800008B7F /* ImageIO.framework */,
+				DD210D072609CDB100008B7F /* GLKit.framework */,
+				DD210D052609CDA900008B7F /* CoreText.framework */,
+				DD210D032609CDA200008B7F /* CoreTelephony.framework */,
+				DD210D012609CD9600008B7F /* CoreLocation.framework */,
+				DD210CFF2609CD8F00008B7F /* CoreImage.framework */,
+				DD210CFD2609CD8900008B7F /* CoreGraphics.framework */,
+				DD210CFB2609CD8300008B7F /* CoreData.framework */,
+				DD210CF92609CD7C00008B7F /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD22FDDA260191C0009B012C = {
 			isa = PBXGroup;
 			children = (
 				DD22FDE5260191C0009B012C /* NavigationViewPractice */,
 				DD22FDE4260191C0009B012C /* Products */,
+				DD210CF82609CD7C00008B7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,16 +162,24 @@
 		DD22FDE5260191C0009B012C /* NavigationViewPractice */ = {
 			isa = PBXGroup;
 			children = (
-				DD22FDE6260191C0009B012C /* NavigationViewPracticeApp.swift */,
-				DD22FDE8260191C0009B012C /* ContentView.swift */,
+				DD22FDE6260191C0009B012C /* NavigationViewPractice.swift */,
+				DD43EC5126086F01008930DC /* BaseTabView.swift */,
+				DD22FDE8260191C0009B012C /* HomeView.swift */,
 				DD22FDFD26038DCA009B012C /* sermonView.swift */,
 				DD22FDF626033ADC009B012C /* newsView.swift */,
 				DD22FDFA26037E0C009B012C /* prayerView.swift */,
+				DD210CF126097E3600008B7F /* LettersView.swift */,
 				DDAB401526049482000F153A /* CovidView.swift */,
+				DD210CEB2608832F00008B7F /* AboutView.swift */,
 				DD22FDEA260191C3009B012C /* Assets.xcassets */,
 				DD22FDEF260191C3009B012C /* Info.plist */,
 				DD22FDEC260191C3009B012C /* Preview Content */,
 				DDAB401226047836000F153A /* WebView.swift */,
+				DD210CEE260886ED00008B7F /* MapView.swift */,
+				DD12A3842609D44900D1BBA7 /* ViewController.swift */,
+				DD12A3812609D15F00D1BBA7 /* GoogleMaps.bundle */,
+				DD12A3A5260A026700D1BBA7 /* TestGoogleMapView.swift */,
+				DD12A3A8260A23EC00D1BBA7 /* AppDelegate.swift */,
 			);
 			path = NavigationViewPractice;
 			sourceTree = "<group>";
@@ -141,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD12A3822609D15F00D1BBA7 /* GoogleMaps.bundle in Resources */,
 				DD22FDEE260191C3009B012C /* Preview Assets.xcassets in Resources */,
 				DD22FDEB260191C3009B012C /* Assets.xcassets in Resources */,
 			);
@@ -153,12 +262,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD12A3A6260A026700D1BBA7 /* TestGoogleMapView.swift in Sources */,
+				DD12A3852609D44900D1BBA7 /* ViewController.swift in Sources */,
 				DDAB401626049482000F153A /* CovidView.swift in Sources */,
-				DD22FDE9260191C0009B012C /* ContentView.swift in Sources */,
+				DD22FDE9260191C0009B012C /* HomeView.swift in Sources */,
+				DD12A3A9260A23EC00D1BBA7 /* AppDelegate.swift in Sources */,
+				DD43EC5226086F01008930DC /* BaseTabView.swift in Sources */,
 				DD22FDFB26037E0C009B012C /* prayerView.swift in Sources */,
-				DD22FDE7260191C0009B012C /* NavigationViewPracticeApp.swift in Sources */,
+				DD210CEC2608832F00008B7F /* AboutView.swift in Sources */,
+				DD22FDE7260191C0009B012C /* NavigationViewPractice.swift in Sources */,
 				DDAB401326047836000F153A /* WebView.swift in Sources */,
+				DD210CEF260886ED00008B7F /* MapView.swift in Sources */,
 				DD22FDF726033ADD009B012C /* newsView.swift in Sources */,
+				DD210CF226097E3600008B7F /* LettersView.swift in Sources */,
 				DD22FDFE26038DCA009B012C /* sermonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +337,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -275,6 +392,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -291,6 +409,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NavigationViewPractice/Preview Content\"";
 				DEVELOPMENT_TEAM = WGV47WB79A;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NavigationViewPractice/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,6 +435,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NavigationViewPractice/Preview Content\"";
 				DEVELOPMENT_TEAM = WGV47WB79A;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NavigationViewPractice/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
