@@ -36,9 +36,9 @@ struct HomeView: View {
                             NavigationLink( destination: sermonView(),tag:"sermon", selection:$selection){EmptyView()}
                             NavigationLink( destination: newsView(),tag:"news", selection:$selection){EmptyView()}
                             NavigationLink( destination: prayerView(), tag:"prayer", selection:$selection){EmptyView()}
-                            NavigationLink( destination: Text("社區活動"), tag:"community", selection:$selection){EmptyView()}
+                            NavigationLink( destination: CommunityView(), tag:"community", selection:$selection){EmptyView()}
                             NavigationLink( destination: LettersView(), tag:"letters", selection:$selection){EmptyView()}
-                            NavigationLink( destination: Text("服事"), tag:"service", selection:$selection){EmptyView()}
+                            NavigationLink( destination: ServiceView(), tag:"service", selection:$selection){EmptyView()}
                             NavigationLink( destination: CovidView(), tag:"covid", selection:$selection){EmptyView()}
                             NavigationLink( destination: AboutView(), tag:"about", selection:$selection){EmptyView()}
                         }
@@ -106,11 +106,11 @@ struct HomeView: View {
                                     self.selection = "community"
                                 }){
                                     ZStack{
-                                        Image("pray.001")
+                                        Image("community.001")
                                             .resizable()
                                             .scaledToFill()
                                             .frame(width: geo.size.width/2, height: cardHeight)
-                                        Text("社區活動")
+                                        Text("週間聚會")
                                             .font(.largeTitle)
                                     }
                                 }

@@ -19,12 +19,12 @@ struct BaseTabView: View {
                     Image(systemName: "house.fill")
                     Text("home")
                 }
-            Text("test2")
+            Text("Mail")
                 .tabItem{
                     Image(systemName: "envelope.fill")
                     Text("Mail")
                 }
-            Text("test3")
+            Text("Me")
                 .tabItem{
                     Image(systemName: "person.fill")
                     Text("Me")

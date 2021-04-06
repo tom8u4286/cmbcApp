@@ -32,15 +32,31 @@ struct AboutView: View{
                     .frame(width: geo.size.width ,alignment: .center)
                     
                     HStack(alignment: .center){
-                        Image("icon_fb")
-                            .resizable()
-                            .scaledToFit()
-                        Image("icon_youtube")
-                            .resizable()
-                            .scaledToFit()
-                        Image("icon_ig")
-                            .resizable()
-                            .scaledToFit()
+                        Button(action:{
+                            let cmbcUrl = ["fb://profile/jesuscmbc"]//需要教會粉專fb的id，不能用fb name
+                            
+                            UIApplication.tryURL(urls: cmbcUrl)
+                        },
+                               label:{Image("icon_fb")
+                                .resizable()
+                                .scaledToFit()})
+                        
+                        Button(action:{
+                            let cmbcUrl = ["youtube://channel/UCI3L-pwVKViyP-LAi4sOEeQ"]
+                            UIApplication.tryURL(urls: cmbcUrl)
+                            
+                        },
+                               label:{Image("icon_youtube")
+                                .resizable()
+                                .scaledToFit()})
+                        
+                        Button(action:{
+                            let cmbcUrl = ["instagram://user?username=cmbc.jesusislord"]
+                            UIApplication.tryURL(urls: cmbcUrl)
+                        },
+                               label:{Image("icon_ig")
+                                .resizable()
+                                .scaledToFit()})
                     }
                     .padding(.horizontal)
                     .frame(width: geo.size.width, height: 80 ,alignment: .center)
@@ -75,8 +91,27 @@ struct CMBCGMView: UIViewRepresentable{
 }
 
 
-struct AboutView_Previews: PreviewProvider {
-    static var previews: some View {
-        AboutView()
+//struct AboutView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        AboutView()
+//    }
+//}
+
+
+
+extension UIApplication {
+    class func tryURL(urls: [String]) {
+        let application = UIApplication.shared
+        for url in urls {
+            if application.canOpenURL(URL(string: url)!) {
+                if #available(iOS 10.0, *) {
+                    application.open(URL(string: url)!, options: [:], completionHandler: nil)
+                }
+                else {
+                    application.openURL(URL(string: url)!)
+                }
+                return
+            }
+        }
     }
 }

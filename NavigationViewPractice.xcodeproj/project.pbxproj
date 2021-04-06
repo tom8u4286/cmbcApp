@@ -25,11 +25,9 @@
 		DD210D022609CD9600008B7F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D012609CD9600008B7F /* CoreLocation.framework */; };
 		DD210D042609CDA200008B7F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D032609CDA200008B7F /* CoreTelephony.framework */; };
 		DD210D062609CDA900008B7F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D052609CDA900008B7F /* CoreText.framework */; };
-		DD210D082609CDB100008B7F /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D072609CDB100008B7F /* GLKit.framework */; };
 		DD210D0A2609CDC800008B7F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D092609CDC800008B7F /* ImageIO.framework */; };
 		DD210D0C2609CDD800008B7F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D0B2609CDD800008B7F /* libc++.tbd */; };
 		DD210D0F2609CDE200008B7F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D0E2609CDE200008B7F /* libz.tbd */; };
-		DD210D122609CDEA00008B7F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D112609CDEA00008B7F /* OpenGLES.framework */; };
 		DD210D142609CDF200008B7F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D132609CDF200008B7F /* QuartzCore.framework */; };
 		DD210D162609CDF900008B7F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D152609CDF900008B7F /* SystemConfiguration.framework */; };
 		DD210D182609CDFF00008B7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D172609CDFF00008B7F /* UIKit.framework */; };
@@ -41,8 +39,20 @@
 		DD22FDFB26037E0C009B012C /* prayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22FDFA26037E0C009B012C /* prayerView.swift */; };
 		DD22FDFE26038DCA009B012C /* sermonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22FDFD26038DCA009B012C /* sermonView.swift */; };
 		DD43EC5226086F01008930DC /* BaseTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD43EC5126086F01008930DC /* BaseTabView.swift */; };
+		DD9CFCF92614777A00F52507 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9CFCF72614777900F52507 /* GoogleSignInDependencies.framework */; };
+		DD9CFCFA2614777A00F52507 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9CFCF82614777A00F52507 /* GoogleSignIn.framework */; };
+		DD9CFD01261477D900F52507 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD9CFD00261477D900F52507 /* GoogleSignIn.bundle */; };
+		DD9CFD0426155B2C00F52507 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CFD0326155B2C00F52507 /* LoginView.swift */; };
 		DDAB401326047836000F153A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB401226047836000F153A /* WebView.swift */; };
 		DDAB401626049482000F153A /* CovidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB401526049482000F153A /* CovidView.swift */; };
+		DDC43DEC2612E35D002F1B87 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC43DEB2612E35D002F1B87 /* CommunityView.swift */; };
+		DDC43DF026131AD5002F1B87 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC43DEF26131AD5002F1B87 /* MetalKit.framework */; };
+		DDC43DF226131AE9002F1B87 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC43DF126131AE9002F1B87 /* Metal.framework */; };
+		DDC43DF6261406B0002F1B87 /* ServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC43DF5261406B0002F1B87 /* ServiceView.swift */; };
+		DDC43E0326146565002F1B87 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC43E0226146565002F1B87 /* LocalAuthentication.framework */; };
+		DDC43E052614656E002F1B87 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC43E042614656E002F1B87 /* SafariServices.framework */; };
+		DDC43E0726146577002F1B87 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC43E0626146577002F1B87 /* AuthenticationServices.framework */; };
+		DDC43E082614659C002F1B87 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD210D152609CDF900008B7F /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,8 +92,19 @@
 		DD22FDFA26037E0C009B012C /* prayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prayerView.swift; sourceTree = "<group>"; };
 		DD22FDFD26038DCA009B012C /* sermonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sermonView.swift; sourceTree = "<group>"; };
 		DD43EC5126086F01008930DC /* BaseTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabView.swift; sourceTree = "<group>"; };
+		DD9CFCF72614777900F52507 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		DD9CFCF82614777A00F52507 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		DD9CFD00261477D900F52507 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		DD9CFD0326155B2C00F52507 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DDAB401226047836000F153A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		DDAB401526049482000F153A /* CovidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidView.swift; sourceTree = "<group>"; };
+		DDC43DEB2612E35D002F1B87 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		DDC43DEF26131AD5002F1B87 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		DDC43DF126131AE9002F1B87 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		DDC43DF5261406B0002F1B87 /* ServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView.swift; sourceTree = "<group>"; };
+		DDC43E0226146565002F1B87 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		DDC43E042614656E002F1B87 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		DDC43E0626146577002F1B87 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,25 +112,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC43E0726146577002F1B87 /* AuthenticationServices.framework in Frameworks */,
 				DD12A37F2609D12B00D1BBA7 /* GoogleMapsM4B.framework in Frameworks */,
 				DD210D182609CDFF00008B7F /* UIKit.framework in Frameworks */,
 				DD210D162609CDF900008B7F /* SystemConfiguration.framework in Frameworks */,
 				DD210D142609CDF200008B7F /* QuartzCore.framework in Frameworks */,
-				DD210D122609CDEA00008B7F /* OpenGLES.framework in Frameworks */,
+				DDC43E0326146565002F1B87 /* LocalAuthentication.framework in Frameworks */,
 				DD210D0F2609CDE200008B7F /* libz.tbd in Frameworks */,
 				DD210D0C2609CDD800008B7F /* libc++.tbd in Frameworks */,
 				DD12A37E2609D12B00D1BBA7 /* GoogleMaps.framework in Frameworks */,
 				DD12A37D2609D12B00D1BBA7 /* GoogleMapsBase.framework in Frameworks */,
 				DD210D0A2609CDC800008B7F /* ImageIO.framework in Frameworks */,
-				DD210D082609CDB100008B7F /* GLKit.framework in Frameworks */,
+				DDC43E082614659C002F1B87 /* SystemConfiguration.framework in Frameworks */,
 				DD210D062609CDA900008B7F /* CoreText.framework in Frameworks */,
 				DD210D042609CDA200008B7F /* CoreTelephony.framework in Frameworks */,
+				DDC43DF026131AD5002F1B87 /* MetalKit.framework in Frameworks */,
 				DD210D022609CD9600008B7F /* CoreLocation.framework in Frameworks */,
 				DD12A37C2609D12B00D1BBA7 /* GoogleMapsCore.framework in Frameworks */,
+				DDC43DF226131AE9002F1B87 /* Metal.framework in Frameworks */,
+				DD9CFCF92614777A00F52507 /* GoogleSignInDependencies.framework in Frameworks */,
+				DD9CFCFA2614777A00F52507 /* GoogleSignIn.framework in Frameworks */,
 				DD210D002609CD8F00008B7F /* CoreImage.framework in Frameworks */,
 				DD210CFE2609CD8900008B7F /* CoreGraphics.framework in Frameworks */,
 				DD210CFC2609CD8300008B7F /* CoreData.framework in Frameworks */,
 				DD210CFA2609CD7C00008B7F /* Accelerate.framework in Frameworks */,
+				DDC43E052614656E002F1B87 /* SafariServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +146,13 @@
 		DD210CF82609CD7C00008B7F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DDC43E0626146577002F1B87 /* AuthenticationServices.framework */,
+				DD9CFCF82614777A00F52507 /* GoogleSignIn.framework */,
+				DD9CFCF72614777900F52507 /* GoogleSignInDependencies.framework */,
+				DDC43E042614656E002F1B87 /* SafariServices.framework */,
+				DDC43E0226146565002F1B87 /* LocalAuthentication.framework */,
+				DDC43DF126131AE9002F1B87 /* Metal.framework */,
+				DDC43DEF26131AD5002F1B87 /* MetalKit.framework */,
 				DD12A37A2609D12B00D1BBA7 /* GoogleMaps.framework */,
 				DD12A3792609D12B00D1BBA7 /* GoogleMapsBase.framework */,
 				DD12A3782609D12B00D1BBA7 /* GoogleMapsCore.framework */,
@@ -145,6 +179,7 @@
 		DD22FDDA260191C0009B012C = {
 			isa = PBXGroup;
 			children = (
+				DD9CFD00261477D900F52507 /* GoogleSignIn.bundle */,
 				DD22FDE5260191C0009B012C /* NavigationViewPractice */,
 				DD22FDE4260191C0009B012C /* Products */,
 				DD210CF82609CD7C00008B7F /* Frameworks */,
@@ -168,7 +203,9 @@
 				DD22FDFD26038DCA009B012C /* sermonView.swift */,
 				DD22FDF626033ADC009B012C /* newsView.swift */,
 				DD22FDFA26037E0C009B012C /* prayerView.swift */,
+				DDC43DEB2612E35D002F1B87 /* CommunityView.swift */,
 				DD210CF126097E3600008B7F /* LettersView.swift */,
+				DDC43DF5261406B0002F1B87 /* ServiceView.swift */,
 				DDAB401526049482000F153A /* CovidView.swift */,
 				DD210CEB2608832F00008B7F /* AboutView.swift */,
 				DD22FDEA260191C3009B012C /* Assets.xcassets */,
@@ -180,6 +217,7 @@
 				DD12A3812609D15F00D1BBA7 /* GoogleMaps.bundle */,
 				DD12A3A5260A026700D1BBA7 /* TestGoogleMapView.swift */,
 				DD12A3A8260A23EC00D1BBA7 /* AppDelegate.swift */,
+				DD9CFD0326155B2C00F52507 /* LoginView.swift */,
 			);
 			path = NavigationViewPractice;
 			sourceTree = "<group>";
@@ -249,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9CFD01261477D900F52507 /* GoogleSignIn.bundle in Resources */,
 				DD12A3822609D15F00D1BBA7 /* GoogleMaps.bundle in Resources */,
 				DD22FDEE260191C3009B012C /* Preview Assets.xcassets in Resources */,
 				DD22FDEB260191C3009B012C /* Assets.xcassets in Resources */,
@@ -270,6 +309,9 @@
 				DD43EC5226086F01008930DC /* BaseTabView.swift in Sources */,
 				DD22FDFB26037E0C009B012C /* prayerView.swift in Sources */,
 				DD210CEC2608832F00008B7F /* AboutView.swift in Sources */,
+				DDC43DF6261406B0002F1B87 /* ServiceView.swift in Sources */,
+				DDC43DEC2612E35D002F1B87 /* CommunityView.swift in Sources */,
+				DD9CFD0426155B2C00F52507 /* LoginView.swift in Sources */,
 				DD22FDE7260191C0009B012C /* NavigationViewPractice.swift in Sources */,
 				DDAB401326047836000F153A /* WebView.swift in Sources */,
 				DD210CEF260886ED00008B7F /* MapView.swift in Sources */,
@@ -337,7 +379,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -392,7 +437,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";

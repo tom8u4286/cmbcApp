@@ -15,9 +15,11 @@ struct NavigationViewPractice: App {
         
     var body: some Scene {
         WindowGroup {
+            //ServiceView()
             BaseTabView()
             //ContentView()
             //newsView()
+            //LoginView()
         
         }
     }
